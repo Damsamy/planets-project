@@ -5,3 +5,7 @@ with open('kepler_data.csv', 'r') as csv_file:
     i = 0
     for row in csv_reader:
         print(row[2])
+
+#Basic code that should run over the CSV and append the objects that meet the criteria to a list, 
+#but for some reason the csv module is broken and stopped working halfway through. 
+#This is a python version of a node.js app from a course.
