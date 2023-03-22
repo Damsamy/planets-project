@@ -29,3 +29,7 @@ fs.createReadStream('kepler_data.csv')
         console.log(`${habitablePlanets.length} habitable planets found!`);
         console.log('done');
     });
+
+//It runs over the CSV file and finds any objects that fit the defined parameters in the function 'isHabitablePlanet'.
+//The habitable planets are then put into a variable which is then displayed in the console log
+//showing the planet name and total number of habitable planets found.
